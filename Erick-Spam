@@ -81,10 +81,9 @@ case $pil in
    pkg install php
    pkg install git
    git clone https://github.com/MrL00L/Spammer-L00L.git
-echo -e  "${y} {1} Masukkan Web${endc}:"
-read web
-nmap $web
-echo
+echo -e  "${y} Cara Menjalankannya Ketik :"
+echo -e  "${y} $ cd Spammer-L00L"
+echo -e  "${y} $ php Spammer.php"
 
 ;;
 
