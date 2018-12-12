@@ -1,5 +1,5 @@
-#!/bin/bash
-#version 1.0
+#!/system/xbin/bash
+# Bersihkan Layar
 
 # Variables
 b='\033[1m'
@@ -19,17 +19,17 @@ red='\e[1;31m'
 
 figlet Tools | lolcat
 
-echo -e  "_____________________________________________________________"
-echo -e  "Author   : Tp.T0kk3 $cyan         " |lolcat
-echo -e  " " |lolcat
-echo -e  "Friend   : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y " |lolcat
-echo -e  "                Zee - Mr.XTOP4NG - Rion Ops    " |lolcat
-echo -e  " " |lolcat
-echo -e  "Team     : Lul'zSec Indo Team - We Are Otaku " |lolcat
-echo -e  "              Kutu Buku Cyber Team Network " |lolcat
-echo -e  " " |lolcat
-echo -e  "Contact  : squadsuicide86@gmail.com $red " |lolcat
-echo -e  "_____________________________________________________________"
+echo -e  "__________________________________________________"
+echo -e  "| Author   : Tp.T0kk3 $cyan                      |" |lolcat
+echo -e  "|                                                |"
+echo -e  "| Friend   : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y |" |lolcat
+echo -e  "|                Zee - Mr.XTOP4NG - Rion Ops     |" |lolcat
+echo -e  "|                                                |"
+echo -e  "| Team     : Lul'zSec Indo Team - We Are Otaku   |" |lolcat
+echo -e  "|               Kutu Buku Cyber Team Network     |" |lolcat
+echo -e  "|                                                |"
+echo -e  "| Contact  : squadsuicide86@gmail.com $red       |" |lolcat
+echo -e  "__________________________________________________"
 
 ###################################################
 # CTRL + C
@@ -45,10 +45,9 @@ echo -e $white"[#]> see you gaes :)..."
 sleep 1
 exit
 }
-
-lagi=1
-while [ $lagi -lt 0 ];
-do
+echo $cyan" DIPILIH COK :)"
+echo ""
+echo $cyan" Kumpulan Tools Spammer"
 echo ""
 echo -e $b "1.  SpammerL00L${enda}";
 echo -e "============================" | lolcat
@@ -78,7 +77,8 @@ read -p "╰─#" pil;
 # SpammerL00L
 
 case $pil in
-1) pkg install php
+1) pkg update && pkg upgrade
+   pkg install php
    pkg install git
    git clone https://github.com/MrL00L/Spammer-L00L.git
 echo -e  "${y} {1} Masukkan Web${endc}:"
