@@ -49,29 +49,29 @@ echo $cyan" DIPILIH COK :)"
 echo ""
 echo $cyan" Kumpulan Tools Spammer"
 echo ""
-echo -e $b "1.  SpammerL00L${enda}";
-echo -e "============================" | lolcat
-echo -e $r "2.  SpamBukaLapak${endc}";
-echo -e "============================" | lolcat
-echo -e $g "3.  GcoSpam${endc}";
-echo -e "============================" | lolcat
-echo -e $c "4.  SpazSMS${endc}";
-echo -e "============================" | lolcat
-echo -e $r "5.  LITESPAM${endc}";
-echo -e "============================" | lolcat
-echo -e $b "6.  SpammerGrab${enda}";
-echo -e "============================" | lolcat
-echo -e $b "7.  LiteOTP${enda}";
-echo -e "============================" | lolcat
-echo -e $b "8.  SpamTsel${enda}";
-echo -e "============================" | lolcat
-echo -e $b "9.  HackingSpammer${enda}";
-echo -e "============================" | lolcat
-echo -e $b "10. SdvSpam${enda}";
-echo -e "============================" | lolcat
-echo -e $r "0.  Exit${endc}";
+echo $b "1.SpammerL00L${enda}";
+echo "============================" | lolcat
+echo $r "2.SpamBukaLapak${enda}";
+echo "============================" | lolcat
+echo $g "3.GcoSpam${enda}";
+echo "============================" | lolcat
+echo $c "4.SpazSMS${enda}";
+echo "============================" | lolcat
+echo $r "5.LITESPAM${enda}";
+echo "============================" | lolcat
+echo $b "6.SpammerGrab${enda}";
+echo "============================" | lolcat
+echo $b "7.LiteOTP${enda}";
+echo "============================" | lolcat
+echo $b "8.SpamTsel${enda}";
+echo "============================" | lolcat
+echo $b "9.HackingSpammer${enda}";
+echo "============================" | lolcat
+echo $b "10.SdvSpam${enda}";
+echo "============================" | lolcat
+echo $r "0.Exit${endc}";
 echo ""
-echo -e "╭─T0kk3"|lolcat
+echo    "╭─T0kk3"|lolcat
 read -p "╰─#" pil;
 
 # SpammerL00L
@@ -81,9 +81,9 @@ case $pil in
    pkg install php
    pkg install git
    git clone https://github.com/MrL00L/Spammer-L00L.git
-echo -e  "${y} Cara Menjalankannya Ketik :"
-echo -e  "${y} $ cd Spammer-L00L"
-echo -e  "${y} $ php Spammer.php"
+echo "${y} Cara Menjalankannya Ketik :"
+echo "${y} $ cd Spammer-L00L"
+echo "${y} $ php Spammer.php"
 
 ;;
 
