@@ -25,8 +25,8 @@ echo -e  " " |lolcat
 echo -e  "Friend   : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y " |lolcat
 echo -e  "                Zee - Mr.XTOP4NG - Rion Ops    " |lolcat
 echo -e  " " |lolcat
-echo -e  "Team     : Lul'zSec Indo Team - Kutu Buku Cyber Team Network " |lolcat
-echo -e  "         :               We Are Otaku " |lolcat
+echo -e  "Team     : Lul'zSec Indo Team - We Are Otaku " |lolcat
+echo -e  "              Kutu Buku Cyber Team Network " |lolcat
 echo -e  " " |lolcat
 echo -e  "Contact  : squadsuicide86@gmail.com $red " |lolcat
 echo -e  "_____________________________________________________________"
@@ -47,12 +47,12 @@ exit
 }
 
 lagi=1
-while [ $lagi -lt 6 ];
+while [ $lagi -lt 0 ];
 do
 echo ""
-echo -e $b "1.  Spammer${enda}";
+echo -e $b "1.  SpammerL00L${enda}";
 echo -e "============================" | lolcat
-echo -e $r "2.  Spam BukaLapak${endc}";
+echo -e $r "2.  SpamBukaLapak${endc}";
 echo -e "============================" | lolcat
 echo -e $g "3.  GcoSpam${endc}";
 echo -e "============================" | lolcat
@@ -60,20 +60,27 @@ echo -e $c "4.  SpazSMS${endc}";
 echo -e "============================" | lolcat
 echo -e $r "5.  LITESPAM${endc}";
 echo -e "============================" | lolcat
-echo -e $b "1.  Spammer${enda}";
-
-
-
+echo -e $b "6.  SpammerGrab${enda}";
 echo -e "============================" | lolcat
-echo -e $r "6. Exit${endc}";
+echo -e $b "7.  LiteOTP${enda}";
+echo -e "============================" | lolcat
+echo -e $b "8.  SpamTsel${enda}";
+echo -e "============================" | lolcat
+echo -e $b "9.  HackingSpammer${enda}";
+echo -e "============================" | lolcat
+echo -e $b "10. SdvSpam${enda}";
+echo -e "============================" | lolcat
+echo -e $r "0.  Exit${endc}";
 echo ""
-echo -e "╭─0day" |lolcat
+echo -e "╭─T0kk3"|lolcat
 read -p "╰─#" pil;
 
-# Nmap
+# SpammerL00L
 
 case $pil in
-1) pkg install nmap
+1) pkg install php
+   pkg install git
+   git clone https://github.com/MrL00L/Spammer-L00L.git
 echo -e  "${y} {1} Masukkan Web${endc}:"
 read web
 nmap $web
