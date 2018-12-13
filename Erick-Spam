@@ -84,8 +84,9 @@ case $pil in
 echo "${y} Cara Menjalankannya Ketik :"
 echo "${y} $ cd Spammer-L00L"
 echo "${y} $ php Spammer.php"
-
-;;
+echo ""
+echo" ${y} BERHASIL_COK"
+fi
 
 # admin-finder
 
