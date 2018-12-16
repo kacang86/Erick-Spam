@@ -19,8 +19,8 @@ red='\e[1;31m'
 
 figlet Erick Gans | lolcat
 
-echo "__________________________________________________" |lolcat
-echo "| Author   : Tp.T0kk3 $cyan                   |" |lolcat
+echo "==================================================" |lolcat
+echo "| Author   : Tp.T0kk3                         |" |lolcat
 echo "|                                                |" |lolcat
 echo "| Friend   : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y |" |lolcat
 echo "|                Zee - Mr.XTOP4NG - Rion Ops     |" |lolcat
@@ -28,8 +28,8 @@ echo "|                                                |" |lolcat
 echo "| Team     : Lul'zSec Indo Team - We Are Otaku   |" |lolcat
 echo "|               Kutu Buku Cyber Team Network     |" |lolcat
 echo "|                                                |" |lolcat
-echo "| Contact  : squadsuicide86@gmail.com $red   |" |lolcat
-echo "__________________________________________________" |lolcat
+echo "| Contact  : squadsuicide86@gmail.com        |" |lolcat
+echo "==================================================" |lolcat
 
 ###################################################
 # CTRL + C
@@ -41,23 +41,23 @@ echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
 echo -e $cyan"[#]> Thanks"
 sleep 1
 echo ""
-echo -e $white"[#]> see you gaes :)..."
+echo -e $white"[#]> See You Cok :)..."
 sleep 1
 exit
 }
-echo $cyan" DIPILIH COK :)"
+echo " DIPILIH COK :) " | lolcat
 echo ""
-echo $cyan" Kumpulan Tools Spammer"
+echo " Kumpulan Tools Spammer " | lolcat
 echo ""
 echo $b "01) SpammerL00L${enda}"
 echo "============================" | lolcat
-echo $r "02) SpamBukaLapak${enda}"
+echo $b "02) SpamBukaLapak${enda}"
 echo "============================" | lolcat
-echo $g "03) GcoSpam${enda}"
+echo $b "03) GcoSpam${enda}"
 echo "============================" | lolcat
-echo $c "04) SpazSMS${enda}"
+echo $b "04) SpazSMS${enda}"
 echo "============================" | lolcat
-echo $r "05) LITESPAM${enda}"
+echo $b "05) LITESPAM${enda}"
 echo "============================" | lolcat
 echo $b "06) SpammerGrab${enda}"
 echo "============================" | lolcat
@@ -69,7 +69,7 @@ echo $b "09) HackingSpammer${enda}"
 echo "============================" | lolcat
 echo $b "10) SdvSpam${enda}"
 echo "============================" | lolcat
-echo $r "00) Exit${endc}"
+echo $b "00) Exit${endc}"
 echo ""
 echo    "╭─T0kk3"|lolcat
 read -p "╰─#" bro;
