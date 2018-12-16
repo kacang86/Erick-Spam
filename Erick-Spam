@@ -20,7 +20,7 @@ red='\033[31;1m'
 figlet Erick Gans | lolcat
 
 echo "==================================================" |lolcat
-echo "| Author   : Tp.T0kk3                         |" |lolcat
+echo "| Author   : Tp.T0kk3                            |" |lolcat
 echo "|                                                |" |lolcat
 echo "| Friend   : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y |" |lolcat
 echo "|                Zee - Mr.XTOP4NG - Rion Ops     |" |lolcat
@@ -28,7 +28,7 @@ echo "|                                                |" |lolcat
 echo "| Team     : Lul'zSec Indo Team - We Are Otaku   |" |lolcat
 echo "|               Kutu Buku Cyber Team Network     |" |lolcat
 echo "|                                                |" |lolcat
-echo "| Contact  : squadsuicide86@gmail.com        |" |lolcat
+echo "| Contact  : squadsuicide86@gmail.com            |" |lolcat
 echo "==================================================" |lolcat
 
 ###################################################
@@ -77,7 +77,7 @@ read -p "╰─#" bro;
 if [ $bro = 1 ] || [ $bro = 01 ]
 then
 clear
-echo $red" Installing SpammerL00L "
+echo " Installing SpammerL00L " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install php
@@ -98,7 +98,7 @@ fi
 if [ $bro = 2 ] || [ $bro = 02 ]
 then
 clear
-echo $red" Installing SpamBukaLapak "
+echo " Installing SpamBukaLapak " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install php
@@ -120,7 +120,7 @@ fi
 if [ $bro = 3 ] || [ $bro = 03 ]
 then
 clear
-echo $red" Installing GcoSpam "
+echo " Installing GcoSpam " | lolcat
 sleep 1
 pkg update && pkg upgrade
 apt install git
@@ -142,7 +142,7 @@ fi
 if [ $bro = 4 ] || [ $bro = 04 ]
 then
 clear
-echo $red" Installing SpazSMS "
+echo " Installing SpazSMS " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install python2
@@ -167,7 +167,7 @@ fi
 if [ $bro = 5 ] || [ $bro = 05 ]
 then
 clear
-echo $red" Installing LITESPAM "
+echo " Installing LITESPAM " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install php
@@ -189,7 +189,7 @@ fi
 if [ $bro = 6 ] || [ $bro = 06 ]
 then
 clear
-echo $red" Installing SpammerGrab "
+echo " Installing SpammerGrab " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install python2
@@ -211,7 +211,7 @@ fi
 if [ $bro = 7 ] || [ $bro = 07 ]
 then
 clear
-echo $red" Installing SpamBomMAIL "
+echo " Installing SpamBomMAIL " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install php
@@ -233,7 +233,7 @@ fi
 if [ $bro = 8 ] || [ $bro = 08 ]
 then
 clear
-echo $red" Installing SpamTsel "
+echo " Installing SpamTsel " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install curl 
@@ -254,7 +254,7 @@ fi
 if [ $bro = 9 ] || [ $bro = 09 ]
 then
 clear
-echo $red" Installing HackingSpammer "
+echo " Installing HackingSpammer " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install python2
@@ -278,7 +278,7 @@ fi
 if [ $bro = 10 ] || [ $bro = 10 ]
 then
 clear
-echo $red" Installing SdvSpam "
+echo " Installing SdvSpam " | lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install git
@@ -299,6 +299,6 @@ fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
 then
-echo $cyan" Copyright © 2018 ErickGansSangad All Right Reserved "
+echo " Copyright © 2018 ErickGansSangad All Right Reserved " | lolcat
 exit
 fi
