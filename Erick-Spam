@@ -17,7 +17,7 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-figlet Tools | lolcat
+figlet Erick Gans | lolcat
 
 echo "__________________________________________________" |lolcat
 echo "| Author   : Tp.T0kk3 $cyan                   |" |lolcat
