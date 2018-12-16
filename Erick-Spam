@@ -69,7 +69,7 @@ echo $b "09) HackingSpammer${enda}"
 echo "============================" | lolcat
 echo $b "10) SdvSpam${enda}"
 echo "============================" | lolcat
-echo $b "00) Exit${endc}"
+echo $b "00) Exit${enda}"
 echo ""
 echo    "╭─T0kk3"|lolcat
 read -p "╰─#" bro;
