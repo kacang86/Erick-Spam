@@ -28,7 +28,7 @@ echo "|                                                |" |lolcat
 echo "| Team     : Lul'zSec Indo Team - We Are Otaku   |" |lolcat
 echo "|               Kutu Buku Cyber Team Network     |" |lolcat
 echo "|                                                |" |lolcat
-echo "| Contact  : squadsuicide86@gmail.com $red    |" |lolcat
+echo "| Contact  : squadsuicide86@gmail.com $red   |" |lolcat
 echo "__________________________________________________" |lolcat
 
 ###################################################
@@ -61,7 +61,7 @@ echo $r "05) LITESPAM${enda}"
 echo "============================" | lolcat
 echo $b "06) SpammerGrab${enda}"
 echo "============================" | lolcat
-echo $b "07) LiteOTP${enda}"
+echo $b "07) SpamBomMAIL${enda}"
 echo "============================" | lolcat
 echo $b "08) SpamTsel${enda}"
 echo "============================" | lolcat
@@ -86,9 +86,13 @@ git clone https://github.com/MrL00L/Spammer-L00L.git
 echo ""
 echo " Cara Menjalankannya Ketik : "
 echo " $ cd Spammer-L00L "
+echo " $ chmod +x * "
 echo " $ php Spammer.php "
 echo ""
-echo $cyan" BERHASIL_COK "
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
 fi
 
 if [ $bro = 2 ] || [ $bro = 02 ]
@@ -107,7 +111,10 @@ echo " $ chmod +x * "
 echo " Untuk Spam Telepon Ketik $ php call.php "
 echo " Untuk Spam WhatsApp Ketik $ php wa.php "
 echo ""
-echo $cyan" BERHASIL_COK "
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
 fi
 
 if [ $bro = 3 ] || [ $bro = 03 ]
@@ -123,9 +130,13 @@ sh install.sh
 echo ""
 echo " Cara Menjalankannya Ketik "
 echo " $ cd gcospam "
+echo " $ chmod +x * "
 echo " $ sh gco.sh "
 echo ""
-echo $cyan" BERHASIL_COK "
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
 fi
 
 if [ $bro = 4 ] || [ $bro = 04 ]
@@ -140,26 +151,154 @@ git clone https://github.com/Gameye98/SpazSMS
 echo ""
 echo " Cara Menjalankannya Ketik : "
 echo " $ cd SpazSMS "
+echo " $ chmod +x * "
 echo " Setelah Itu nanti akan ada 3 Pilihan Spam,, di sini saya Menggunakan spam lite.py "
-$ python2 lite.py
-$ python2.7 lite.py --sms 628*******
-Catatan: --sms bisa kalian ganti dengan --call
-Dan untuk Tool spam yg lain nya bisa kalian kembangkan sendiri
-5) git clone https://github.com/Rajkumrdusad/Tool-X
-echo -e "${y} Installer Tool-X..."
-echo -e "${y} cd Tool-X"
-echo -e "${y} sh install.aex"
-cd /data/data/com.termux/files/home/Tool-X
-bash /data/data/com.termux/files/home/Tool-X/sh install.aex
+echo " $ python2 lite.py "
+echo " $ python2 lite.py --sms NoTarget "
+echo " NOTE : --sms bisa kalian ganti dengan --call "
+echo " Dan untuk Tool spam yg lain nya bisa kalian kembangkan sendiri "
+echo ""
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
+fi
 
-;;
+if [ $bro = 5 ] || [ $bro = 05 ]
+then
+clear
+echo $red" Installing LITESPAM "
+sleep 1
+pkg update && pkg upgrade
+pkg install php
+pkg install toilet
+pkg install git
+git clone https://github.com/4L13199/LITESPAM
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd LITESPAM "
+echo " $ chmod +x * "
+echo " $ sh LITESPAM.sh "
+echo ""
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
+fi
 
+if [ $bro = 6 ] || [ $bro = 06 ]
+then
+clear
+echo $red" Installing SpammerGrab "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pip2 install requests
+pkg install git
+git clone http://github.com/p4kl0nc4t/Spammer-Grab
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd Spammer-Grab "
+echo " $ chmod +x * "
+echo " $ python2 spammer.py no hp korban --delay 30 "
+echo ""
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
+fi
 
-6) echo "created by : 0daysecurity98" | lolcat
+if [ $bro = 7 ] || [ $bro = 07 ]
+then
+clear
+echo $red" Installing SpamBomMAIL "
+sleep 1
+pkg update && pkg upgrade
+pkg install php
+pkg install wget
+wget http://files-store.theprivat.ml/uploads/bom-mall.zip
+unzip bom-mall.zip
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd bom-mall "
+echo " $ chmod +x * "
+echo " $ php run.php "
+echo ""
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
+fi
+
+if [ $bro = 8 ] || [ $bro = 08 ]
+then
+clear
+echo $red" Installing SpamTsel "
+sleep 1
+pkg update && pkg upgrade
+pkg install curl 
+pkg install php 
+curl -s http://files-store.theprivat.ml/uploads/bombtsel.txt > bombtsel.php 
+chmod 777 bombtsel.php
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd bombtsel "
+echo " $ php bombtsel.php "
+echo ""
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
+fi
+
+if [ $bro = 9 ] || [ $bro = 09 ]
+then
+clear
+echo $red" Installing HackingSpammer "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install php
+pip2 install requests
+pkg install nano
+pkg install git
+git clone https://github.com/Senitopeng/SpamSms.git
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd SpamSms "
+echo " $ chmod +x * "
+echo " $ python2 mantan.py "
+echo ""
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
+fi
+
+if [ $bro = 10 ] || [ $bro = 10 ]
+then
+clear
+echo $red" Installing SdvSpam "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+git clone https://github.com/mrmsdv/sdvspam.git
+cd sdvspam
+sh install.sh
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd sdvspam "
+echo " $ chmod +x * "
+echo " $ sh sdv.sh "
+echo ""
+sleep 1
+echo $cyan" GAGAL_COK "
+sleep 1
+echo $cyan" Tapi Bohong Wkwk :D "
+fi
+
+if [ $bro = 00 ] || [ $bro = 00 ]
+then
+echo $cyan" Copyright © 2018 ErickGansSangad All Right Reserved "
 exit
-;;
-
-*) echo "sorry, pilihan yang anda cari tidak ada"
-esac
-done
-done
+fi
