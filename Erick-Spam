@@ -14,8 +14,8 @@ w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
 blue='\e[1;34m'
-cyan='\e[1;36m'
-red='\e[1;31m'
+cyan='\033[36;1m'
+red='\033[31;1m'
 
 figlet Erick Gans | lolcat
 
