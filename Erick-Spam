@@ -49,81 +49,102 @@ echo $cyan" DIPILIH COK :)"
 echo ""
 echo $cyan" Kumpulan Tools Spammer"
 echo ""
-echo $b "1.SpammerL00L${enda}";
+echo $b "01) SpammerL00L${enda}"
 echo "============================" | lolcat
-echo $r "2.SpamBukaLapak${enda}";
+echo $r "02) SpamBukaLapak${enda}"
 echo "============================" | lolcat
-echo $g "3.GcoSpam${enda}";
+echo $g "03) GcoSpam${enda}"
 echo "============================" | lolcat
-echo $c "4.SpazSMS${enda}";
+echo $c "04) SpazSMS${enda}"
 echo "============================" | lolcat
-echo $r "5.LITESPAM${enda}";
+echo $r "05) LITESPAM${enda}"
 echo "============================" | lolcat
-echo $b "6.SpammerGrab${enda}";
+echo $b "06) SpammerGrab${enda}"
 echo "============================" | lolcat
-echo $b "7.LiteOTP${enda}";
+echo $b "07) LiteOTP${enda}"
 echo "============================" | lolcat
-echo $b "8.SpamTsel${enda}";
+echo $b "08) SpamTsel${enda}"
 echo "============================" | lolcat
-echo $b "9.HackingSpammer${enda}";
+echo $b "09) HackingSpammer${enda}"
 echo "============================" | lolcat
-echo $b "10.SdvSpam${enda}";
+echo $b "10) SdvSpam${enda}"
 echo "============================" | lolcat
-echo $r "0.Exit${endc}";
+echo $r "00) Exit${endc}"
 echo ""
 echo    "╭─T0kk3"|lolcat
-read -p "╰─#" pil;
+read -p "╰─#" bro;
 
-# SpammerL00L
-
-case $pil in
-1) pkg update && pkg upgrade
-   pkg install php
-   pkg install git
-   git clone https://github.com/MrL00L/Spammer-L00L.git
-echo "${y} Cara Menjalankannya Ketik :"
-echo "${y} $ cd Spammer-L00L"
-echo "${y} $ php Spammer.php"
+if [ $bro = 1 ] || [ $bro = 01 ]
+then
+clear
+echo $red" Installing SpammerL00L "
+sleep 1
+pkg update && pkg upgrade
+pkg install php
+pkg install git
+git clone https://github.com/MrL00L/Spammer-L00L.git
 echo ""
-echo" ${y} BERHASIL_COK"
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd Spammer-L00L "
+echo " $ php Spammer.php "
+echo ""
+echo $cyan" BERHASIL_COK "
 fi
 
-# admin-finder
+if [ $bro = 2 ] || [ $bro = 02 ]
+then
+clear
+echo $red" Installing SpamBukaLapak "
+sleep 1
+pkg update && pkg upgrade
+pkg install php
+pkg install git
+git clone https://github.com/siputra12/prank
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd prank "
+echo " $ chmod +x * "
+echo " Untuk Spam Telepon Ketik $ php call.php "
+echo " Untuk Spam WhatsApp Ketik $ php wa.php "
+echo ""
+echo $cyan" BERHASIL_COK "
+fi
 
-2) git clone  https://github.com/the-c0d3r/admin-finder.git
-echo -e "${y} cara menggunakan admin finder"
-echo -e "${y} cd admin-finder"
-echo -e "${y} python admin-finder.py"
-cd /data/data/com.termux/files/home/admin-finder/
-python2 /data/data/com.termux/files/home/admin-finder/admin-finder.py
-echo
+if [ $bro = 3 ] || [ $bro = 03 ]
+then
+clear
+echo $red" Installing GcoSpam "
+sleep 1
+pkg update && pkg upgrade
+apt install git
+git clone https://github.com/Amriez/gcospam
+cd gcospam
+sh install.sh
+echo ""
+echo " Cara Menjalankannya Ketik "
+echo " $ cd gcospam "
+echo " $ sh gco.sh "
+echo ""
+echo $cyan" BERHASIL_COK "
+fi
 
-;;
-
-#RED_HAWK
-
-3) git clone https://github.com/Tuhinshubhra/RED_HAWK
-echo -e "${y} Installer RED_HAWK..."
-echo -e "${y} cd RED_HAWK"
-echo -e "${y} php RED_HAWK.php"
-cd /data/data/com.termux/files/home/RED_HAWK/
-php /data/data/com.termux/files/home/RED_HAWK/ RED_HAWK.php
-
-;;
-
-#Lazymux
-
-4) git clone https://github.com/Gameye98/Lazymux
-echo -e "${y} Installer Lazymux..."
-echo -e "${y} cd Lazymux"
-echo -e "${y} python lazymux.py"
-cd /data/data/com.termux/files/home/Lazymux/
-python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
-
-;;
-
-#Tools-X
-
+if [ $bro = 4 ] || [ $bro = 04 ]
+then
+clear
+echo $red" Installing SpazSMS "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/Gameye98/SpazSMS
+echo ""
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd SpazSMS "
+echo " Setelah Itu nanti akan ada 3 Pilihan Spam,, di sini saya Menggunakan spam lite.py "
+$ python2 lite.py
+$ python2.7 lite.py --sms 628*******
+Catatan: --sms bisa kalian ganti dengan --call
+Dan untuk Tool spam yg lain nya bisa kalian kembangkan sendiri
 5) git clone https://github.com/Rajkumrdusad/Tool-X
 echo -e "${y} Installer Tool-X..."
 echo -e "${y} cd Tool-X"
